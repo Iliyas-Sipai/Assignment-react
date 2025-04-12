@@ -3,7 +3,8 @@ const Main = () => {
 
     
     const getUserName = () => {
-    "Sipaiiliyas@123"
+
+      return "Sipaiiliyas@123"
 }
     return(
         <>

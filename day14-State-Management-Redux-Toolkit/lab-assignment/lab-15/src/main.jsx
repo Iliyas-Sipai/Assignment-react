@@ -4,9 +4,10 @@ import './index.css'
 import App from './App.jsx'
 import CounterStore from './Store/CounterStore.js'
 import { Provider } from 'react-redux'
+import StoreTodo from './To-dolist/StoreTodo.js'
 
 createRoot(document.getElementById('root')).render(
-  <Provider store={CounterStore}>
+  <Provider store={StoreTodo}>
     <App />
   </Provider>
 
